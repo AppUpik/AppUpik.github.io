@@ -121,7 +121,7 @@ body {
   }
   
   .detail-img {
-    margin-top: 50px;
+    /*margin-top: 50px;*/
     margin-bottom: -70px;
     width: 90px;
   }
@@ -138,8 +138,9 @@ body {
   }
   
   .layer-img {
-    margin-top: -150px;
-    margin-bottom: 100px;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    margin-left: 3px;
     width:280px;
   }</style><style type="text/css">/*!
    * Bootstrap v4.1.1 (https://getbootstrap.com/)
@@ -4138,6 +4139,7 @@ body {
     -ms-flex-pack: justify;
     justify-content: space-between;
     padding: 0.5rem 1rem;
+    width: 33.3%;
   }
   
   .navbar > .container,
@@ -4167,6 +4169,7 @@ body {
   }
   
   .navbar-nav {
+
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -4182,6 +4185,7 @@ body {
   }
   
   .navbar-nav .dropdown-menu {
+    display: block;
     position: static;
     float: none;
   }
@@ -7503,13 +7507,13 @@ body {
     position: sticky !important;
   }
   
-  .fixed-top {
+  /*.fixed-top {
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 1030;
-  }
+  }*/
   
   .fixed-bottom {
     position: fixed;
@@ -9221,7 +9225,7 @@ h1.section-title{
     font-size: 70px;
     font-weight: 800;
     text-align: center;
-    text-shadow: 2px 1px rgba(0, 0, 0, 0.719);
+    text-shadow: 3px 2px rgba(0, 0, 0, 0.305);
 }
 
 p.section-description{
