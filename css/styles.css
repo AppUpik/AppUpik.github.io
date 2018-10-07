@@ -9219,7 +9219,7 @@ h1.section-title{
     color: #fff;
     font-family: 'M PLUS Rounded 1c', sans-serif;
     font-size: 70px;
-    font-weight: bold;
+    font-weight: 800;
     text-align: center;
     text-shadow: 2px 1px rgba(0, 0, 0, 0.719);
 }
@@ -9229,6 +9229,12 @@ p.section-description{
     font-size: 24pt;
     font-weight: 300;
     z-index: 100;
+}
+
+h2.featurette-heading {
+  color: #919191;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  font-weight: bold;
 }
 
 
