@@ -4,22 +4,21 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#000000">
   <link rel="stylesheet" type="text/css" href="css/normalize.css">
-  <link rel="stylesheet" type="text/css" href="css/devstyles.css">
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
   <link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
   <title>Upik</title>
 </head>
 
-<body data-gr-c-s-loaded="true">
+<body>
 
   <div id="root">
     <div class="App">
 
-      <div>
-        <!-- NAVBAR -->
-        <!--<nav class="navbar navbar-expand-md navbar-light fixed-top bg-light"><a class="navbar-brand" href="#">
+      <div> <!-- NAVBAR -->
+        <nav class="navbar navbar-expand-md navbar-light fixed-top bg-light"><a class="navbar-brand" href="#">
             <h1>Upik</h1>
           </a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse"
             aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -32,99 +31,82 @@
               <li class="nav-item"><a class="nav-link disabled" href="#">Partner</a></li>
             </ul>
           </div>
-        </nav>-->
+        </nav>
       </div> <!-- END NAVBAR -->
 
       <main role="main">
+        <div>
+          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+              <li data-target="#myCarousel" data-slide-to="1"></li>
+              <li data-target="#myCarousel" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="main-container">
+                <div class="slide-item active">
+                  <div class="slide-picture">
+                    <img clas="first-slide" src="./Upik_files/slide_1_1600.jpg" alt="First slide">
+                  </div>
+                </div>
 
-        <!-- Slideshow container -->
-        <div class="slideshow-container"> <!--SLIDE-->
-
-          <!-- Full-width images with number and caption text -->
-          <div class="mySlides fade">
-            <img src="img/slides/1280/slide1.jpg" style="width:100%">
-            <div class="text"><h1 class="section-title">¿Ya sabes dónde ir <br>a comer?</h1></div>
-          </div>
-
-          <div class="mySlides fade">
-            <img src="img/slides/1280/slide2.jpg" style="width:100%">
-            <div class="text"><h1 class="section-title">¿Ya sabes dónde ir <br>a comer?</h1></div>
-          </div>
-
-          <div class="mySlides fade">
-            <img src="img/slides/1280/slide3.jpg" style="width:100%">
-            <div class="text"><h1 class="section-title">¿Ya sabes dónde ir <br>a comer?</h1></div>
-          </div>
-
-          <!-- Next and previous buttons -->
-          <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-          <a class="next" onclick="plusSlides(1)">&#10095;</a>
-        </div>
-
-        <!-- The dots/circles -->
-        <div class="dots-space"style="text-align:center">
-          <span class="dot" onclick="currentSlide(1)"></span>
-          <span class="dot" onclick="currentSlide(2)"></span>
-          <span class="dot" onclick="currentSlide(3)"></span>
-        </div> <!--END SLIDE-->
-
-        <div class="title-description">
-          <div class="row">
-            <div class="col-md-12">
-              <p class="section-description">Descubre lugares descargando nuestra App <br>
-                y disfruta de nuevas alternativas <br>
-                para visitar en tu ciudad.
-              </p>
+              </div><a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev"><span class="carousel-control-prev-icon"
+                  aria-hidden="true"></span><span class="sr-only">Previous</span></a><a class="carousel-control-next"
+                href="#myCarousel" role="button" data-slide="next"><span class="carousel-control-next-icon" aria-hidden="true"></span><span
+                  class="sr-only">Next</span></a>
             </div>
           </div>
         </div>
 
-        <div>
-          <!-- FEAUTRES -->
-          <div class="row featurette">
-            <!-- FIRST FEAUTRES -->
+        <div class="container">
+          <div class="row" >
+            <div class="col-md-12" style="margin-top: -300px; margin-bottom: 100px;">
+              <h1 class="section-title">¿Ya sabes dónde ir <br>a comer?</h1>
+            </div>
+            <div class="col-md-12" style="margin-bottom: 50px;">
+                <p class="section-description">Descubre lugares descargando nuestra App <br>
+                  y disfruta de nuevas alternativas <br>
+                  para visitar en tu ciudad.
+                </p>
+            </div>
+          </div>
+          </div>
+
+        <div> <!-- FEAUTRES -->
+          <div class="row featurette"> <!-- FIRST FEAUTRES -->
             <div class="col-md-12" id="feature-1"><img class="banner-bg " src="./img/prop pagina-17.jpg" alt="Generic placeholder image"><img
                 class="layer-img img-fluid" src="./img/prop pagina-25.png" alt="Generic placeholder image"></div>
-            <div class="feature-clean-fix"></div>
             <div class="container"><img class="detail-img img-fluid" src="./img/prop pagina-24.png" alt=""></div>
-            <div class="feature-content container  clean-bottom">
+            <div class="container  clean-bottom">
               <div class="col-md-12">
                 <h2 class="featurette-heading">Gourmet</h2>
-                <p class="lead section-description">Accede a descuentos en toda la comida <span class="breakline">
-                    internacional y calma tus antojos. </span></p>
+                <p class="lead section-description">Accede a descuentos en toda la comida <br> internacional y calma tus antojos. </p>
               </div>
             </div>
-          </div> <!-- END FIRST FEAUTRES -->
+          </div>  <!-- END FIRST FEAUTRES -->
 
-          <div class="row featurette">
-            <!-- SECOND FEAUTRES -->
+          <div class="row featurette"> <!-- SECOND FEAUTRES -->
             <div class="col-md-12"><img class="banner-bg " src="./img/prop pagina-17.jpg" alt="Generic placeholder image"><img
                 class="layer-img img-fluid" src="./img/prop pagina-25.png" alt="Generic placeholder image"></div>
-            <div class="feature-clean-fix"></div>
             <div class="container"><img class="detail-img img-fluid" src="./img/prop pagina-26.png" alt=""></div>
-            <div class="feature-content container  clean-bottom">
+            <div class="container  clean-bottom">
               <div class="col-md-12">
                 <h2 class="featurette-heading">Tradicional</h2>
-                <p class="lead section-description">Comparte en familia y amigos con el mejor sabor <span class="breakline">
-                    de los platos típicos de la ciudad.</span>
-                </p>
+                <p class="lead section-description">Comparte en familia y amigos con el mejor sabor <br> de los platos típicos de la ciudad.
+                    </p>
               </div>
             </div>
           </div> <!-- END SECOND FEAUTRES -->
 
-          <div class="row featurette">
-            <!-- THIRD FEAUTRES -->
+          <div class="row featurette"> <!-- THIRD FEAUTRES -->
             <div class="col-md-12"><img class="banner-bg" src="./img/prop pagina-17.jpg" alt="Generic placeholder image"><img
                 class="layer-img img-fluid" src="./img/prop pagina-25.png" alt="Generic placeholder image"></div>
-            <div class="feature-clean-fix"></div>
             <div class="container"><img class="detail-img img-fluid" src="./img/prop pagina-27.png" alt=""></div>
             <div class="container clean-bottom">
               <div class="col-md-12">
                 <h2 class="featurette-heading">Underground</h2>
-                <p class="lead section-description">Qué tal una hamburguesa callejera <span class="breakline"> o una
-                    arepa con queso. Descubre todos los lugares que no </span><span class="breakline"> sabías que
-                    existían y están esperando por ti.</span>
-                </p>
+                <p class="lead section-description">Qué tal una hamburguesa callejera <br> o una arepa con queso. Descubre todos los lugares que no <br> sabías que existían y están esperando por ti.
+                    </p>
               </div>
             </div>
           </div> <!-- END SECOND FEAUTRES -->
@@ -133,8 +115,7 @@
 
         <hr class="featurette-divider">
 
-        <div class="footer">
-          <!-- FOOTER -->
+        <div> <!-- FOOTER -->
           <footer class="container">
             <p class="float-right"><a href="#">Back to top</a></p>
             <p>© 2017-2018 Company, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
@@ -144,7 +125,7 @@
       </main>
     </div> <!-- END APP -->
   </div> <!-- END ROOT -->
-  <script src="js/main.js"></script>
+
 </body>
 
 </html>
