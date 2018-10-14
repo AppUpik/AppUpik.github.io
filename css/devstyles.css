@@ -65,15 +65,6 @@ body {
     text-align: center;
   }
   
-  /* Number text (1/3 etc) */
-  .numbertext {
-    color: #f2f2f2;
-    font-size: 12px;
-    padding: 8px 12px;
-    position: absolute;
-    top: 0;
-  }
-  
   /* The dots/bullets/indicators */
   .dot {
     cursor: pointer;
@@ -203,17 +194,24 @@ h2.featurette-heading {
 
 .title-description {
     margin-top: 100px;
-    margin-bottom: 100px;
     display: block;
 }
+
+/*Desktop first*/
 
 @media only screen and (max-width: 767px) {
     .dots-space{
         margin-top: -40px;
     }
+    div.mySlides > img {
+        height: 60vh;
+    }
+    div.title-description {
+        height: 40vh;
+    }
     h1.section-title {
         font-size: 40px;
-        margin-bottom: 40px;
+        margin-bottom: 100px;
     }
     .featurette-heading {
         font-size: 32px;
@@ -238,20 +236,67 @@ h2.featurette-heading {
     }
 }
 
+@media only screen and (max-width: 480px) {
+    .dots-space{
+        margin-top: -40px;
+    }
+    div.mySlides > img {
+        height: 50vh;
+    }
+    div.title-description {
+        height: 50vh;
+    }
+    h1.section-title {
+        font-size: 40px;
+        margin-bottom: 80px;
+    }
+    h1.section-title-3 {
+        margin-bottom: 70px;
+    }
+    .featurette-heading {
+        font-size: 32px;
+    }
+    p.section-description {
+        font-size: 20pt;
+        line-height: 1.5;
+        padding: 0 20px;
+        margin-top: -20px;
+    }
+    .banner-bg {
+        height: 100px;
+        width: 100%;
+    }
+    .detail-img {
+        margin-top: 100px;
+        width: 80px;
+    }
+    .layer-img {
+        margin-top: -100px;
+        width: 200px;
+    }
+}
+
+/*Mobile first*/
+
 @media only screen and (min-width: 768px){
     .breakline {
         display: block;
     }
     div.mySlides > img {
-        max-height: 450px;
+        height: 60vh;
     }
-
+    div.title-description {
+        height: 40vh;
+    }
     .featurette-heading {
         font-size: 40px;
     }
     h1.section-title {
         font-size: 48px;
         margin-bottom: 100px;
+    }
+    h1.section-title-3 {
+        margin-bottom: 120px;
     }
     p.section-description {
         font-size: 20pt;
@@ -302,6 +347,13 @@ h2.featurette-heading {
 }
 
 @media only screen and (min-width: 1600px){
+    h1.section-title {
+        margin-bottom: 140px;
+    }
+    p.section-description {
+        font-size: 24pt;
+        margin-top: 0;
+    }
     .banner-bg {
         height: 150px;
     }
