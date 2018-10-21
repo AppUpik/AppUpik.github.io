@@ -2,32 +2,6 @@
 const picturesList = [];
 let width = window.innerWidth;
 console.log(width);
-//console.log(frame.src);
-/*
-let pos = 0;
-for (i = 1; i < 4; i++) {
-    if (width <= 768) {
-        picturesList.push("C:/Users/SJMONTOYAM/Documents/GitHub/AppUpik.github.io/js/768/slide" + i + ".jpg");
-    } else if (width <= 1240) {
-        picturesList.push("C:/Users/SJMONTOYAM/Documents/GitHub/AppUpik.github.io/js/1280/slide" + i + ".jpg");
-    } else if (width > 1240) {
-        picturesList.push("C:/Users/SJMONTOYAM/Documents/GitHub/AppUpik.github.io/js/1680/slide" + i + ".jpg");
-    }
-}
-
-const initialize = () => {
-    frame.src = picturesList[0];
-}
-
-const forwardPicture = () => {
-    console.log("Forward called");
-    pos < picturesList.length - 1 ? frame.src = picturesList[++pos] : false;
-}
-
-const backwardPicture = () => {
-    console.log("Backward called");
-    pos > 0 ? frame.src = picturesList[--pos] : false;
-}*/
 
 const setSlide = (num) => {
     console.log("set picture called");

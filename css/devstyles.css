@@ -123,7 +123,7 @@ div.container {
 }
 
 div.clean-bottom {
-    margin-bottom: 50px;
+    margin-bottom: 20vh;
 }
 
 div.slide-picture img {
@@ -203,7 +203,7 @@ h2.featurette-heading {
     .dots-space{
         margin-top: -40px;
     }
-    div.mySlides > img {
+    div.mySlides > picture > img {
         height: 60vh;
     }
     div.title-description {
@@ -217,7 +217,7 @@ h2.featurette-heading {
         font-size: 32px;
     }
     p.section-description {
-        font-size: 20pt;
+        font-size: 30px;
         line-height: 1.5;
         padding: 0 20px;
         margin-top: -20px;
@@ -229,6 +229,9 @@ h2.featurette-heading {
     .detail-img {
         margin-top: 100px;
         width: 80px;
+    }
+    h1.section-title {
+        font-size: 48px;
     }
     .layer-img {
         margin-top: -100px;
@@ -240,24 +243,26 @@ h2.featurette-heading {
     .dots-space{
         margin-top: -40px;
     }
-    div.mySlides > img {
+    div.mySlides > picture > img {
         height: 50vh;
     }
     div.title-description {
         height: 50vh;
     }
     h1.section-title {
+        text-shadow: 2px 1px rgba(0, 0, 0, 0.305);
         font-size: 40px;
         margin-bottom: 80px;
     }
     h1.section-title-3 {
+        text-shadow: 2px 1px rgba(0, 0, 0, 0.305);
         margin-bottom: 70px;
     }
     .featurette-heading {
         font-size: 32px;
     }
     p.section-description {
-        font-size: 20pt;
+        font-size: 26px;
         line-height: 1.5;
         padding: 0 20px;
         margin-top: -20px;
@@ -274,6 +279,10 @@ h2.featurette-heading {
         margin-top: -100px;
         width: 200px;
     }
+    .row featurette {
+        display: block;
+        min-height: 100vh;
+    }
 }
 
 /*Mobile first*/
@@ -282,24 +291,27 @@ h2.featurette-heading {
     .breakline {
         display: block;
     }
-    div.mySlides > img {
+    div.mySlides > picture > img {
         height: 60vh;
     }
     div.title-description {
         height: 40vh;
     }
+    div.feature-clean-fix{
+        height: 20vh;
+    }
     .featurette-heading {
         font-size: 40px;
     }
     h1.section-title {
-        font-size: 48px;
+        font-size: 60px;
         margin-bottom: 100px;
     }
     h1.section-title-3 {
         margin-bottom: 120px;
     }
     p.section-description {
-        font-size: 20pt;
+        font-size: 36px;
         margin-top: -30px;
         line-height: 1.5;
     }
@@ -308,7 +320,6 @@ h2.featurette-heading {
         width: 100%;
     }
     .detail-img {
-        margin-top: 150px;
         width: 80px;
     }
     .layer-img {
@@ -325,11 +336,10 @@ h2.featurette-heading {
         font-size: 48px;
     }
     h1.section-title {
-        font-size: 70px;
         margin-bottom: 120px;
     }
     p.section-description {
-        font-size: 20pt;
+        font-size: 36px;
         margin-top: -30px;
         line-height: 1.5;
     }
@@ -340,18 +350,15 @@ h2.featurette-heading {
         margin-top: -100px;
         width: 200px;
     }
-    div.feature-clean-fix {
-        height: 5px;
-        width: 100%;
-    }
 }
 
 @media only screen and (min-width: 1600px){
     h1.section-title {
+        font-size: 80px;
         margin-bottom: 140px;
     }
     p.section-description {
-        font-size: 24pt;
+        font-size: 40px;
         margin-top: 0;
     }
     .banner-bg {
@@ -360,8 +367,5 @@ h2.featurette-heading {
     .layer-img {
         width: 250px;
     }
-    div.feature-clean-fix {
-        height: 100px;
-        width: 100%;
-    }
+
 }
